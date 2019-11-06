@@ -45,7 +45,8 @@ gem 'acts_as_list'
 gem 'acts_as_tree_rails3'
 #gem 'recaptcha', :require => 'recaptcha/rails', :branch => 'rails3'
 gem 'recaptcha'
-gem 'pg'
+#gem 'pg'
+gem 'simplecov', :require => false
 
 group :development, :test do
   gem 'ruby-debug19'
